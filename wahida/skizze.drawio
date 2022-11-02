@@ -1,0 +1,94 @@
+<mxfile host="65bd71144e">
+    <diagram id="PnFp7zQhXAKwUri5aw0w" name="Page-1">
+        <mxGraphModel dx="689" dy="589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="health center" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="260" width="124" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="health_center_id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="362" y="320" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="doctor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="426" y="525" width="124" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="unit" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="550" y="260" width="124" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="patient" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="360" width="124" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8" target="9">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="fk_unit_id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="360" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="unit_id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="550" y="320" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="unit_name" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="550" y="360" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="unit_floor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="550" y="400" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="doctor_id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="428" y="585" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="doctor_code" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="428" y="625" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="doctor_specialty" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="428" y="665" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="16" target="13">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="fk_doctor_id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="550" y="440" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="patient_id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="164" y="420" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="patient_svnumber" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="164" y="460" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="patient_age" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="164" y="500" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="patient_dateAdmission" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="156" y="540" width="136" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="23" target="18">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="fk_patient_id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="400" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="interventions" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="615" width="124" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="intervention_id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="675" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="27" target="26">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="fk_intervention_id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="428" y="705" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="intervention_date" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="715" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="intervention_symptom" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="148" y="755" width="152" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="intervention_treatment" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="162" y="795" width="120" height="40" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
